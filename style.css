@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
 * {
     margin: 0;
 }
@@ -57,6 +57,7 @@
 
 .displayText > h1 {
   font-family: 'Crete Round', serif;
+  font-weight: bolder;
 } 
 .displayText > p {
   font-family: 'Roboto Slab', serif;
@@ -66,4 +67,15 @@
   -ms-transform: scale(1.01); /* IE 9 */
   -webkit-transform: scale(1.01); /* Safari 3-8 */
   transform: scale(1.01); 
+}
+
+.recentViews {
+  margin: 20px;
+  font-family: 'Crete Round', serif;
+}
+
+.recents{
+  width: 70%;
+  height: auto;
+  margin-left: 30px;
 }
